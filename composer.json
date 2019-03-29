@@ -2,7 +2,7 @@
     "name": "symfony-bundles/slugify",
     "type": "library",
     "description": "SymfonyBundles Slugify Library",
-    "keywords": ["php", "image", "library", "resize", "crop"],
+    "keywords": ["php", "library", "slug", "transliterate"],
     "homepage": "https://github.com/symfony-bundles/slugify",
     "license": "MIT",
     "authors": [
