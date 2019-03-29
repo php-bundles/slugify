@@ -1,0 +1,21 @@
+language: php
+sudo: false
+
+php:
+    - 7.2
+    - 7.3
+
+cache:
+    directories:
+        - $HOME/.composer/cache
+
+before_install:
+    - phpenv config-rm xdebug.ini || true
+    - phpenv rehash
+    - composer self-update
+
+install:
+    - composer install
+
+script:
+    - ./vendor/bin/phpunit

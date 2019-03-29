@@ -1,0 +1,34 @@
+{
+    "name": "symfony-bundles/slugify",
+    "type": "library",
+    "description": "SymfonyBundles Slugify Library",
+    "keywords": ["php", "image", "library", "resize", "crop"],
+    "homepage": "https://github.com/symfony-bundles/slugify",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Khaperets",
+            "email": "khaperets@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SymfonyBundles\\Slugify\\": "src"
+        },
+        "exclude-from-classmap": [
+            "/tests/"
+        ]
+    },
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "phpunit/php-code-coverage": "^7.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
